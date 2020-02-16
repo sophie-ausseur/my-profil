@@ -1,0 +1,113 @@
+/* colors and fonts */ 
+body {
+	background: #F7E8F0; 
+	color: black; 
+	font-family: lora;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+h1, h2, h3 {
+	font-family: courier;
+}
+
+h1{
+	color: #EAB0D9; 
+	font-weight: 800;
+	font-size: 30px;
+}
+
+h2{
+	color: rgb(100, 100, 100);
+	font-size: 30px;
+	font-weight: lighter;
+	font-weight: 800;
+}
+
+a{
+	font-family: courier;
+	color: black;
+	text-decoration: none;
+	font-weight: 800, 
+	font-size: 15px;
+}
+a:hover {
+	color: #EAB0D9 ;
+}
+
+/*custom design with class*/ 
+
+.principale {
+	background-color: #F7E8F0;
+	width: 900px;
+	margin: 100px auto;
+	border: #F7E8F0; 
+}
+
+.card-white {
+	background-color: white;
+	padding: 150px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+	border-radius: 3px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+
+.btn-blue {
+	background-color: #F7E8F0;
+	color: black;
+	padding: 10px 30px;
+	border-radius: 5px;
+}
+ 
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 15px;
+}
+
+.list-inline i {
+	font-size: 55px;
+}
+
+#introduction p {
+	margin-bottom: 45px; 
+}
+
+
+
+@media (max-width: 850px) {
+	.principale {
+		width: 700px;
+	}
+}
+
+@media (max-width: 650px) {
+	.principale {
+		width: 500px;
+	}
+}
+
+@media (max-width: 450px) {
+	.principale {
+		width: 300px;
+	}
+}
+
+
+div{
+	background: white;
+	border: 5px solid #EAB0D9;
+	margin: 25px;
+}
+
+
